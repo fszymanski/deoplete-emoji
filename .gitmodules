@@ -1,0 +1,3 @@
+[submodule "rplugin/python3/deoplete/sources/emoji"]
+	path = rplugin/python3/deoplete/sources/emoji
+	url = git@github.com:carpedm20/emoji.git
