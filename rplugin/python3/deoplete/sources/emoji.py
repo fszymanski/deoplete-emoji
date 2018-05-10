@@ -24,7 +24,7 @@ class Source(Base):
         self.max_candidates = 5000
 
     def gather_candidates(self, context):
-        return [{'word': k, 'kind': v} for (k, v) in unicode_codes.EMOJI_ALIAS_UNICODE.items()]
+        return [{'word': k, 'kind': ' '+v+' '} for (k, v) in unicode_codes.EMOJI_ALIAS_UNICODE.items()]
 
     def get_complete_position(self, context):
         match = self.__pattern.search(context['input'])
