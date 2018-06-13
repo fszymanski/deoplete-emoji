@@ -1,6 +1,6 @@
 *deoplete_emoji.txt* Deoplete source for emoji codes
 
-Author: Filip Szymański <filip.szymanski@zoho.eu>
+Author: Filip Szymański <fszymanski.pl@gmail.com>
 
 ==============================================================================
 CONTENTS                                             *deoplete-emoji-contents*
