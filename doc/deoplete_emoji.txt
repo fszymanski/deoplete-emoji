@@ -21,7 +21,7 @@ of available emoji and codes, see emoji cheat sheet[2].
 ==============================================================================
 CONFIGURATION                                   *deoplete-emoji-configuration*
 
-The |deoplete#custom#set()| function can by used to change the |filetypes|
+The |deoplete#custom#set()| function can be used to change the |filetypes|
 for this source.
 >
   call deoplete#custom#set('emoji', 'filetypes', ['rst'])
