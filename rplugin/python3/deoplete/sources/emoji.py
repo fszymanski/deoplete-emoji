@@ -21,7 +21,7 @@ class Source(Base):
         self.mark = '[emoji]'
         self.matchers = ['matcher_length', 'matcher_full_fuzzy']
         self.name = 'emoji'
-        sels.max_candidates = 0
+        self.max_candidates = 0
 
     def gather_candidates(self, context):
         return [{'word': k, 'kind': ' {} '.format(v)} for (k, v) in EMOJI_CODES.items()]
