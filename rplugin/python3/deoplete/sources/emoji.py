@@ -1,4 +1,4 @@
-# Copyright (c) 2017 Filip Szymański. All rights reserved.
+# Copyright (c) 2018 Filip Szymański. All rights reserved.
 # Use of this source code is governed by an MIT license that can be
 # found in the LICENSE file.
 
@@ -8,14 +8,14 @@ from .base import Base
 from deoplete.util import load_external_module
 
 load_external_module(__file__, 'sources/emoji')
-from emoji_codes import EMOJI_CODES
+from data import EMOJI_CODES
 
 
 class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
 
-        self.__pattern = re.compile(r':[^:\s]*$')
+        self.__pattern = re.compile(r':[^:\s]+$')
 
         self.filetypes = ['gitcommit', 'markdown']
         self.mark = '[emoji]'

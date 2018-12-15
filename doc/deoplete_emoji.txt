@@ -16,7 +16,7 @@ INTRODUCTION                                     *deoplete-emoji-introduction*
 
 This deoplete[1] source offers asynchronous completion of emoji codes. You
 can add emoji to your document by writing |:EMOJICODE:|. For a full list
-of available emoji and codes, see emoji cheat sheet[2].
+of available emoji and codes, see emoji table[2].
 
 ==============================================================================
 CONFIGURATION                                   *deoplete-emoji-configuration*
@@ -51,6 +51,6 @@ https://github.com/fszymanski/deoplete-emoji
 ==============================================================================
 
 [1] https://github.com/Shougo/deoplete.nvim
-[2] https://www.webpagefx.com/tools/emoji-cheat-sheet/
+[2] https://unicodey.com/emoji-data/table.htm
 
  vim: tw=78 ts=8 ft=help norl

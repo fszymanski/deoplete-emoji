@@ -1,7 +1,7 @@
 # deoplete-emoji
 
 `Deoplete-emoji` offers asynchronous completion of emoji codes. You can add emoji to your document by writing `:EMOJICODE:`.
-For a full list of available emoji and codes, see [emoji-cheat-sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
+For a full list of available emoji and codes, see emoji [table](https://unicodey.com/emoji-data/table.htm).
 
 ![](https://user-images.githubusercontent.com/25827968/27698987-195ead00-5cf9-11e7-8bcd-5e88e111f35a.png)
 
