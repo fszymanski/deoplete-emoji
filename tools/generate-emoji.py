@@ -53,6 +53,6 @@ with open('../rplugin/python3/deoplete/sources/emoji/data.py', 'w') as f:
     f.write('EMOJI_CODES = {\n')
     for line in lines:
         for k, v in line.items():
-            f.write(f"   '{k}': '{v}',\n")
+            f.write(f"    '{k}': '{v}',\n")
 
     f.write('}')
