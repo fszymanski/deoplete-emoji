@@ -20,7 +20,6 @@ class Source(Base):
         self.filetypes = ['gitcommit', 'markdown']
         self.mark = '[emoji]'
         self.matchers = ['matcher_length', 'matcher_full_fuzzy']
-        self.converters = ['converter_emoji']
         self.name = 'emoji'
         self.max_candidates = 0
 
