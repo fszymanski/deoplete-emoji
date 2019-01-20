@@ -29,12 +29,12 @@ for this source.
 Default: ['gitcommit', 'markdown']
 
 By default, selecting a suggestion from the pop-up will insert a text
-representation of the emoji.  To insert the actual emoji, ensure that your
-terminal supports emoji fonts and that a suitable font is installed. Once that's
-done, enable the `converter_emoji` converter like this:
-
-  `call deoplete#custom#source('emoji', 'converters', ['converter_emoji'])`
-
+representation of the emoji. To insert the actual emoji, ensure that your
+terminal supports emoji fonts and that a suitable font is installed.
+Once that's done, enable the `converter_emoji` converter like this:
+>
+  call deoplete#custom#source('emoji', 'converters', ['converter_emoji'])
+<
 ==============================================================================
 LICENSE                                               *deoplete-emoji-license*
 
