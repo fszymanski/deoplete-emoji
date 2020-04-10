@@ -2,13 +2,13 @@
 # Use of this source code is governed by an MIT license that can be
 # found in the LICENSE file.
 
+from emoji.data import EMOJI_CODES
 import re
 
 from .base import Base
 from deoplete.util import load_external_module
 
 load_external_module(__file__, 'sources/emoji')
-from data import EMOJI_CODES
 
 
 class Source(Base):
