@@ -2,7 +2,7 @@
 # Use of this source code is governed by an MIT license that can be
 # found in the LICENSE file.
 
-from emoji.data import EMOJI_CODES
+from .emoji.data import EMOJI_CODES
 import re
 
 from .base import Base
